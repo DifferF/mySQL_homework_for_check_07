@@ -73,6 +73,3 @@ select mark from marks where id_marks =
 (select mark_id from cars where id_cars = 
 (SELECT car_id from orders where client_id = 
 (SELECT id_clients FROM clients where age = miAge()) ));|
-
-
-
